@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>APEC Login</title>
+
   <style>
     body {
       margin: 0;
@@ -21,6 +23,11 @@
       width: 320px;
       text-align: center;
       box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .logo {
+      width: 80px;
+      margin-bottom: 10px;
     }
 
     h1 {
@@ -58,9 +65,14 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="container">
+
+    <!-- College Logo (replace file name correctly) -->
+    <img src="logo.png" alt="APEC Logo" class="logo">
+
     <div class="welcome">Welcome APEC 🎓</div>
     <h1>Login</h1>
 
@@ -68,8 +80,8 @@
     <input type="password" placeholder="Password">
 
     <button>Login</button>
+
   </div>
 
 </body>
 </html>
-
