@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>APEC Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #4facfe, #00f2fe, #f093fb);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    input {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      width: 95%;
+      padding: 10px;
+      background: #4facfe;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #0077ff;
+    }
+
+    .welcome {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="welcome">Welcome APEC 🎓</div>
+    <h1>Login</h1>
+
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+
+    <button>Login</button>
+  </div>
+
+</body>
+</html>
